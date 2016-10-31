@@ -1,5 +1,7 @@
 ## 프론트엔드 디자인 과외
 
+![Web Design Workflow](http://www.fantasky.ch/img/uploads/2014/09/6_web_technology_trends_2013.jpg)
+
 1. 디자인 PSD 구조화
 	- 공동 작업을 위한 디자인 툴 설정
 	- UI 설계 : 구조적 레이어 그룹화
@@ -11,7 +13,7 @@
 	- 거터 (Gutter)
 	- 마진 (Margin)
 	- 중단점 (Dasktop, Tablet, Mobile)
-	- PSD 제작, Web Page 제작
+	- Web Page PSD 제작
 
 1. 타이포그라피
 	- 단위 (px, rem)

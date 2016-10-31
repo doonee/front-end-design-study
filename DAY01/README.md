@@ -8,4 +8,4 @@
 	- 거터 (Gutter)
 	- 마진 (Margin)
 	- 중단점 (Dasktop, Tablet, Mobile)
-	- PSD 제작, Web Page 제작
+	- Web Page PSD 제작
