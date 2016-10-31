@@ -45,7 +45,7 @@
 		- min-width
 		- max-width
 	2. 이미지 최적화
-		- 2@x, 3@x
+		- @2x, @3x
 		- srcset
 		- background retina
 	3. 시멘틱 마크업
