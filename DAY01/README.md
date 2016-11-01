@@ -22,7 +22,7 @@
 
 ##4. 그리드 시스템 디자인 제작 시 중단점 설정 방법
 	1. (컬럼 폭 * 컬럼 수) + (거터 폭 * (컬럼 수 - 1) = 중단점(max-width)
-	2. 중단점(max-width) + (마진 폭 * 2) = 그리드시스템 디자인 너비 폭
+	2. 중단점(max-width) + (거터 폭 * 2(margin)) = 그리드시스템 디자인 너비 폭
 
 ##[참고]
 - [브라우저 점유율 확인](http://gs.statcounter.com/#desktop-browser_version_partially_combined-KR-monthly-201609-201610-bar)
