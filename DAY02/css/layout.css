@@ -15,8 +15,30 @@ HTML 요소
 	- 세로 방향 정렬(vertical-align)은 가능
 
 3. CSS 박스 모델
-	- 콘텐츠 박스
-	- 패딩 박스
-	- 보더 박스
-	- 마진 박스
+	- 콘텐츠 박스 (content)
+	- 패딩 박스 (padding)
+	- 보더 박스 (border)
+	- 마진 박스 (margin)
+
 */
+
+/**
+* --------------------------------
+* Box model css style
+* ----------------------------- */
+.box {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	margin: 10px;
+	font-size: 14px;
+	color: #fff;
+}
+.blue {
+	border: 1px solid #0f61a6;
+	background: #12abf1;
+}
+.yellow {
+	border: 1px solid #d78820;
+	background: #e5b30c;
+}

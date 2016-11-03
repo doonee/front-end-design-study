@@ -1,17 +1,37 @@
+/**
+* --------------------------------
+* Reset css style
+* ----------------------------- */
 body {
 	margin: 0;
-	background: url("../images/page/background-image.jpg") no-repeat center center;
-	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
 }
 
+/**
+* --------------------------------
+* show-grid Module
+* ----------------------------- */
+.show-grid {
+	min-height: 100vh;
+	/* leading 10px */
+	background: linear-gradient(transparent 90%, hsla(0, 0%, 0%, 0.2) 90%);
+	background-size: 1px 10px;
+}
+
+/**
+* --------------------------------
+* grid-container Module
+* ----------------------------- */
 .grid-container {
-	width: 960px;
+	/* 1256 - (20 * 2) = 1216*/
+	width: 1216px;
 	height: 100vh;
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 }
 
-/* 상태 디자인: hover 해당 요소에 마우스가 올라가면 */
-.grid-container:hover {
-	background: url("../images/guides/grid-system-960--10-60-10.png");
+.show-grid .grid-container {
+	background: linear-gradient(90deg, hsla(267, 53%, 52%, 0.3) 50%, hsla(44, 78%, 55%, 0.3) 50%);
+	/* (1256 - 40) / 8 =  152 * 2 = 304 */
+	background-size: 304px 1px;
 }

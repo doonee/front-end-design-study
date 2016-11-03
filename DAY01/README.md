@@ -9,8 +9,6 @@
 	- 컬럼 (Columns)
 	- 거터 (Gutter)
 	- 마진 (Margin)
-	- 중단점 (Dasktop, Tablet, Mobile)
-	- Web Page PSD 제작
 
 ##3.웹 서비스를 위한 사전 협의
 	- 다양한 디바이스 환경
