@@ -13,21 +13,21 @@
 - [x]	거터 (Gutter)
 - [x]	마진 (Margin)
 - [x]	중단점 (Dasktop, Tablet, Mobile)
-- []	Web Page PSD 제작
+- [ ]	Web Page PSD 제작
 
 ###3. 타이포그라피
-- []	단위 (px, rem)
-- []	비율 (font, line-height)
+- [ ]	단위 (px, rem)
+- [ ]	비율 (font, line-height)
 - [x]	자간 (letter-spacing)
 
 ###4. 이미지 슬라이스
-- []	스마트 오브젝트
-- []	벡터 이미지 (SVG)
-- []	이미지 내보내기 방식
+- [ ]	스마트 오브젝트
+- [ ]	벡터 이미지 (SVG)
+- [ ]	이미지 내보내기 방식
 
 ###5. UI Kit 제작
-- []	UI 모듈화 (재사용 높은 UI)
-- []	유지보수를 위한 UI Kit
+- [ ]	UI 모듈화 (재사용 높은 UI)
+- [ ]	유지보수를 위한 UI Kit
 
 ###6. 레이아웃 구조화
 - [x]	1. 박스모델 (Box Model)
@@ -36,28 +36,28 @@
 	- border
 	- margin
 
-- []	2. 박스모델 정렬 (Align)
+- [ ]	2. 박스모델 정렬 (Align)
 	- display
 	- float
 	- clearfix
 
-- []	3. 목록
+- [ ]	3. 목록
 	- ol, li
 	- ul, li
 	- dt, dd
 
 ###7. 반응형 웹 페이지
-- []	1. 디바이스 중단점 설계
+- [ ]	1. 디바이스 중단점 설계
 	- @media
 	- min-width
 	- max-width
 
-- []	2. 이미지 최적화
+- [ ]	2. 이미지 최적화
 	- @2x, @3x
 	- srcset
 	- background retina
 
-- []	3. 시멘틱 마크업
+- [ ]	3. 시멘틱 마크업
 	- HTML
 	- CSS
 	- Github.io
