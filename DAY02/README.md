@@ -12,6 +12,8 @@
 		- border
 		- margin
 
+	![박스모델](https://upload.wikimedia.org/wikipedia/commons/b/bd/W3C_and_Internet_Explorer_box_models.png)
+
 ##3. Github (GUI 버전관리)
 	1. commit 추가,변경 이슈 가상서버(local) 저장
 	2. sync 실서버 반영
