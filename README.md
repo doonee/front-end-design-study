@@ -30,34 +30,34 @@
 - [ ]	유지보수를 위한 UI Kit
 
 ###6. 레이아웃 구조화
-- [x]	1. 박스모델 (Box Model)
+	1. 박스모델 (Box Model)
 - [x]		- content
 - [x]		- padding
 - [x]		- border
 - [x]		- margin
 
-- [ ]	2. 박스모델 정렬 (Align)
-- [x]	- display
-- [ ]	- float
-- [ ]	- clearfix
+	2. 박스모델 정렬 (Align)
+- [x]		- display
+- [ ]		- float
+- [ ]		- clearfix
 
-- [ ]	3. 목록
-- [ ]	- ol, li
-- [ ]	- ul, li
-- [ ]	- dt, dd
+	3. 목록
+- [ ]		- ol, li
+- [ ]		- ul, li
+- [ ]		- dt, dd
 
 ###7. 반응형 웹 페이지
-- [ ]	1. 디바이스 중단점 설계
-- [ ]	- @media
-- [ ]	- min-width
-- [ ]	- max-width
+	1. 디바이스 중단점 설계
+- [ ]		- @media
+- [ ]		- min-width
+- [ ]		- max-width
 
-- [ ]	2. 이미지 최적화
-- [ ]	- @2x, @3x ~
-- [ ]	- srcset
-- [ ]	- background retina
+	2. 이미지 최적화
+- [ ]		- @2x, @3x ~
+- [ ]		- srcset
+- [ ]		- background retina
 
-- [ ]	3. 시멘틱 마크업
-- [ ]	- HTML
-- [ ]	- CSS
+	3. 시멘틱 마크업
+- [ ]		- HTML
+- [ ]		- CSS
 - [x]	- Github.io
