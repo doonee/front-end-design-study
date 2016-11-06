@@ -25,9 +25,18 @@ html body {
 }
 
 /* 행간의 간격 : 14px(body font size) × 1.5 */
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 21px;
 	margin-bottom: 2.1rem;
+	font-weight: normal;
+}
+p {
+	margin-bottom: 21px;
+	margin-bottom: 2.1rem;
+}
+
+p strong {
+	color: #8226b5;
 }
 
 /* 제목의 비율 : 1.2 */
