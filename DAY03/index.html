@@ -8,14 +8,24 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
 	<!-- 나눔고딕 -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/font-nanum/1.0/nanumgothic/nanumgothic.css">
+	<!-- 그리드시스템 설계 -->
 	<link rel="stylesheet" type="text/css" href="css/gridsystem.css">
 	<!-- 타이포그라피 설계 -->
 	<link rel="stylesheet" type="text/css" href="css/typography.css">
+	<!-- 박스 모델 스타일 -->
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
 </head>
 <body class="show-grid">
 
 	<div class="grid-container">
 
+		<!-- 인라인(inline) 요소 -->
+		<span class="box blue">Content 박스</span>
+
+		<!-- 블록(block) 요소 -->
+		<div class="box yellow">Content 박스</div>
+
+		<!-- 단락(Paragraph) 요소 -->
 		<p><strong>display: inline</strong> - 기본값으로, 요소를 inline 요소처럼 표시합니다.<br/>
 			따라서 앞뒤로 줄바꿈 되지 않습니다.</p>
 		<p><strong>display: block</strong> - block 요소를 block 요소처럼 표시합니다.<br/>
@@ -25,7 +35,7 @@
 		<p><strong>display: inline-block</strong> - inline인데 내부는 block 처럼 표시합니다.<br/>
 			즉, 박스 모델이 inline 처럼 수평으로 정렬 됩니다.</p>
 
-		<!-- 제목 Headings -->
+		<!-- 제목(Headings) 요소 -->
 		<!-- heading 6 -->
 		<h6>h6 제목 = 폰트 사이즈(body) × 비율(1.2)</h6>
 		<!-- heading 5 -->

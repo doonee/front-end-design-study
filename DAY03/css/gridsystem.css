@@ -5,7 +5,7 @@
 .grid-container {
 	/* 1256 - (20 × 2) = 1216*/
 	width: 1216px;
-	height: 100vh;
+	height: 120vh;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 21px;

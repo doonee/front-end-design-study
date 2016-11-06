@@ -27,12 +27,17 @@ HTML 요소
 * Box model css style
 * ----------------------------- */
 .box {
-	width: 200px;
-	height: 200px;
+	display: inline-block;
+	width: 208px;
+	height: 208px;
 	padding: 10px;
-	margin: 10px;
+	margin: 0 21px 21px 0;
 	font-size: 14px;
 	color: #fff;
+	/* 세로 정렬을 top으로 설정 */
+	vertical-align: top;
+	/* border 까지의 영역을 content 영역으로 사용 */
+	box-sizing: border-box;
 }
 .blue {
 	border: 1px solid #0f61a6;
