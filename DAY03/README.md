@@ -9,12 +9,19 @@
 	- 비율 (font, line-height)
 	- 자간 (letter-spacing)
 
-##2. . 이미지 슬라이스
-	- 스마트 오브젝트
-	- 벡터 이미지 (SVG)
-	- 이미지 내보내기 방식
+##2. 웹폰트 설정
+	- 웹폰트 적용 방법 [참고](http://daumui.tistory.com/45)
+	- Font-family 설정
+
+##3. 박스모델 정렬 (Align)
+	1. display
+		- block (블록 요소)
+		- inline-block (인라인 블록 요소)
+		- inline (인라인 요소)
 
 ##[참고]
 - [Front and Style Guide](https://24ways.org/2011/front-end-style-guides)
 - [Generate image assets](https://helpx.adobe.com/photoshop/using/generate-assets-layers.html)
 - [Flat UI](http://designmodo.github.io/Flat-UI/)
+- [Google Fonts](https://fonts.google.com/)
+-

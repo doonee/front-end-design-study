@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>타이포그라피 설계</title>
+	<!-- normalize : Reset CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+	<!-- 나눔고딕 -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/font-nanum/1.0/nanumgothic/nanumgothic.css">
+	<link rel="stylesheet" type="text/css" href="css/gridsystem.css">
+	<!-- 타이포그라피 설계 -->
+	<link rel="stylesheet" type="text/css" href="css/typography.css">
+</head>
+<body class="show-grid">
+
+	<div class="grid-container">
+
+		<p>display: inline - 기본값으로, 요소를 inline 요소처럼 표시합니다.<br/>
+			따라서 앞뒤로 줄바꿈 되지 않습니다.</p>
+		<p>display: block - block 요소를 block 요소처럼 표시합니다.<br/>
+			따라서 요소 앞 뒤로 줄바꿈이 되고 수직으로 정렬 됩니다.</p>
+		<p>display: none - 박스 모델을 보여지지 않도록 숨김 처리합니다.<br/>
+			따라서 공간을 차지하지도 않습니다.</p>
+		<p>display: inline-block - inline인데 내부는 block 처럼 표시합니다.<br/>
+			즉, 박스 모델이 inline 처럼 수평으로 정렬 됩니다.</p>
+
+		<!-- 제목 Headings -->
+		<!-- heading 6 -->
+		<h6>h6 제목 = 폰트 사이즈(body) × 비율(1.2)</h6>
+		<!-- heading 5 -->
+		<h5>h5 제목 = 폰트 사이즈(h6) × 비율(1.2)</h5>
+		<!-- heading 4 -->
+		<h4>h4 제목 = 폰트 사이즈(h5) × 비율(1.2)</h4>
+		<!-- heading 3 -->
+		<h3>h3 제목 = 폰트 사이즈(h4) × 비율(1.2)</h3>
+		<!-- heading 2 -->
+		<h2>h2 제목 = 폰트 사이즈(h3) × 비율(1.2)</h2>
+		<!-- heading 1 -->
+		<h1>h1 제목 = 폰트 사이즈(h2) × 비율(1.2)</h1>
+
+	</div>
+
+	<!-- 그리스 시스템 토글 버튼 -->
+	<script src="js/toggleGrid.js"></script>
+
+</body>
+</html>

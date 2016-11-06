@@ -1,0 +1,32 @@
+/**
+* --------------------------------
+* grid-container Module
+* ----------------------------- */
+.grid-container {
+	/* 1256 - (20 × 2) = 1216*/
+	width: 1216px;
+	height: 100vh;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 21px;
+}
+
+.show-grid .grid-container {
+	/* 거터가 없는 그리드 */
+	background: linear-gradient(90deg, hsla(267, 53%, 52%, 0.3) 50%, hsla(44, 78%, 55%, 0.3) 50%);
+	/* 거터가 있는 그리드 생성 - 다음시간! */
+	/* (1256 - 40) ÷ 8 =  152 × 2 = 304 */
+	background-size: 304px 1px;
+}
+
+/**
+* --------------------------------
+* show-grid Module
+* ----------------------------- */
+
+.show-grid {
+	/* baseline 10px */
+	background: linear-gradient(transparent 98%, hsla(0, 0%, 0%, 0.2) 98%);
+	/* [linear-gradient 참고] https://developer.mozilla.org/ko/docs/Web/CSS/linear-gradient */
+	background-size: 0.1rem 2.1rem;
+}

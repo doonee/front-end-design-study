@@ -13,11 +13,11 @@
 - [x]	거터 (Gutter)
 - [x]	마진 (Margin)
 - [x]	중단점 (Dasktop, Tablet, Mobile)
-- [ ]	Web Page PSD 제작
+- [x]	Web Page PSD 제작 (GRID 패턴)
 
 ###3. 타이포그라피
-- [ ]	단위 (px, rem)
-- [ ]	비율 (font, line-height)
+- [x]	단위 (px, rem)
+- [x]	비율 (font, line-height)
 - [x]	자간 (letter-spacing)
 
 ###4. 이미지 슬라이스
@@ -31,35 +31,33 @@
 
 ###6. 레이아웃 구조화
 - [x]	1. 박스모델 (Box Model)
-	- content
-	- padding
-	- border
-	- margin
+- [x]		- content
+- [x]		- padding
+- [x]		- border
+- [x]		- margin
 
 - [ ]	2. 박스모델 정렬 (Align)
-	- display
-	- float
-	- clearfix
+- [x]	- display
+- [ ]	- float
+- [ ]	- clearfix
 
 - [ ]	3. 목록
-	- ol, li
-	- ul, li
-	- dt, dd
+- [ ]	- ol, li
+- [ ]	- ul, li
+- [ ]	- dt, dd
 
 ###7. 반응형 웹 페이지
 - [ ]	1. 디바이스 중단점 설계
-	- @media
-	- min-width
-	- max-width
+- [ ]	- @media
+- [ ]	- min-width
+- [ ]	- max-width
 
 - [ ]	2. 이미지 최적화
-	- @2x, @3x
-	- srcset
-	- background retina
+- [ ]	- @2x, @3x ~
+- [ ]	- srcset
+- [ ]	- background retina
 
 - [ ]	3. 시멘틱 마크업
-	- HTML
-	- CSS
-	- Github.io
-
-
+- [ ]	- HTML
+- [ ]	- CSS
+- [x]	- Github.io
