@@ -17,7 +17,14 @@
 
 ![레티나 이미지](http://www.miekd.com/upload/2012/07/Sprite-Article-Example.png)
 
+![Pixel](https://spoqa.github.io/images/bitmap-vector/1_Pixel.png)
+
+
 ##3. 이미지 최적화
 	- @2x, @3x ~
 	- srcset
 	- background retina
+
+##[참고]
+[비트맵 방식과 벡터 방식](https://spoqa.github.io/2012/06/13/bitmap-vector.html)
+[레티나 배경 이미지 대응](https://css-tricks.com/snippets/css/retina-display-media-query/)
