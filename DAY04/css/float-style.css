@@ -1,0 +1,74 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, button, p, blockquote, th, td, form, fieldset, blockquote, iframe {
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	box-sizing: border-box;
+}
+
+.wrap {
+	width: 100%;
+
+	/*최소 높이*/
+	/*min-height: 780px;*/
+
+	/*최대 높이*/
+	/* max-height: 780px; */
+
+	/* view port height */
+	height: 100vh;
+
+	background: #f17575;
+	/* overflow-y: scroll; */
+}
+
+.row {
+	max-width: 1216px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #cdcdcd;
+}
+
+/* 가상요소 : 컨텐츠 앞쪽으로 배치 */
+/*.row:before {
+	content: "";
+	color: #1444bf;
+}
+*/
+
+/* 가상요소 : 컨텐츠의 뒤쪽으로 배치 */
+/*.row:after {
+	content: "";
+	color: #1444bf;
+}*/
+
+.clearfix:after, .row:after {
+	display: inline-block;
+	content: "";
+	clear: both;
+}
+
+/*.clearfix {
+	clear: both;
+}*/
+
+/* 메뉴 스타일 정의 */
+.menu ul li {
+	display: inline-block;
+	float: left;
+}
+.menu {
+	margin-right: auto;
+	margin-left: auto;
+}
+.menu ul li a {
+	display: block;
+}
+.logo {
+	float: left;
+}
+
+.btn-menu {
+	float: right;
+}
