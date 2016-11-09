@@ -5,7 +5,7 @@
 	- 벡터 이미지 (SVG)
 	- 이미지 내보내기 방식
 
-![레티나 이미지](http://www.miekd.com/upload/2012/07/Sprite-Asrticle-Example.png)
+![레티나 이미지](http://www.miekd.com/upload/2012/07/Sprite-Article-Example.png)
 
 ![Pixel](https://spoqa.github.io/images/bitmap-vector/1_Pixel.png)
 
