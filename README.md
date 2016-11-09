@@ -38,8 +38,9 @@
 
 	2. 박스모델 정렬 (Align)
 - [x]		- display
-- [ ]		- float
-- [ ]		- clearfix
+- [x]		- float
+- [x]		- position
+- [x]		- clearfix
 
 	3. 목록
 - [ ]		- ol, li
@@ -49,8 +50,8 @@
 ###7. 반응형 웹 페이지
 	1. 디바이스 중단점 설계
 - [ ]		- @media
-- [ ]		- min-width
-- [ ]		- max-width
+- [x]		- min-width
+- [x]		- max-width
 
 	2. 이미지 최적화
 - [ ]		- @2x, @3x ~

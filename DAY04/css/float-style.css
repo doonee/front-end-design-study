@@ -1,4 +1,5 @@
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, button, p, blockquote, th, td, form, fieldset, blockquote, iframe {
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, button, p, blockquote, th, td, form, fieldset, blockquote, iframe, xmp {
+	font-family:'Nanum Gothic';
 	margin: 0;
 	padding: 0;
 	-webkit-text-size-adjust: none;
@@ -19,39 +20,42 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 	/* view port height */
 	height: 100vh;
 
-	background: #f17575;
+	/* 고정 높이를 가진 요소에 스크롤을 생성 */
 	/* overflow-y: scroll; */
 }
 
 .row {
-	max-width: 1216px;
+	max-width: 980px;
 	margin-right: auto;
 	margin-left: auto;
-	background: #cdcdcd;
 }
 
-/* 가상요소 : 컨텐츠 앞쪽으로 배치 */
+/* :before 가상요소 : 컨텐츠 앞쪽으로 배치 */
 /*.row:before {
 	content: "";
-	color: #1444bf;
+	color: #bf3714;
 }
 */
 
-/* 가상요소 : 컨텐츠의 뒤쪽으로 배치 */
+/* :after가상요소 : 컨텐츠의 뒤쪽으로 배치 */
 /*.row:after {
 	content: "";
 	color: #1444bf;
 }*/
 
-.clearfix:after, .row:after {
-	display: inline-block;
+
+/* float 해제 목적으로 clear: both를 설정 */
+/* clear가 적용되기 위해서는 block요소를 사용해야 한다. */
+/*.clearfix:after {
+	display: block;
+	content: "";
+	clear: both;
+}*/
+.row:after {
+	display: block;
 	content: "";
 	clear: both;
 }
-
-/*.clearfix {
-	clear: both;
-}*/
 
 /* 메뉴 스타일 정의 */
 .menu ul li {
@@ -59,11 +63,17 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 	float: left;
 }
 .menu {
-	margin-right: auto;
-	margin-left: auto;
+	/* 기본값인 포지션 정렬 : root 부모요소를 기준을 위치를 감지한다. */
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -240px;
 }
 .menu ul li a {
 	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
 }
 .logo {
 	float: left;
@@ -71,4 +81,58 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fiel
 
 .btn-menu {
 	float: right;
+}
+
+/*  */
+.box-set {
+	position: relative;
+	background: #e6e6e6;
+	margin-top: 100px;
+}
+
+.box1 {
+	width: 100px;
+	height: 100px;
+	background-color: #f76666;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.box2 {
+	width: 100px;
+	height: 100px;
+	background-color: #51ca4e;
+	position: absolute;
+	bottom: 0;
+	right: 50%;
+	margin-right: -50px;
+}
+.box3 {
+	width: 100px;
+	height: 100px;
+	background-color: #6784e3;
+}
+
+/* 흐름을 끊는 기법 설명 스타일 */
+xmp {
+	display: inline-block;
+	color: #F44336;
+}
+.clearing-floats, .overflow {
+	padding: 0 40px;
+	margin-top: 40px;
+}
+.overflow {
+	margin-bottom: 40px;
+}
+
+.clearing-floats h2, .overflow h2 {
+	color: #456adf;
+	margin-bottom: 20px;
+}
+
+.clearing-floats ul li, .overflow ul li {
+	list-style: none;
+	line-height: 1.5;
+	margin-bottom: 10px;
 }
