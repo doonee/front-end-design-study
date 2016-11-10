@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[.${1:retina-images} {
+	width: ${2:10rem};
+	height: ${3:10rem};
+	background: url(${4:../images/profile}.png) ${7:no-repeat};
+	background-size: ${8:cover};
+}
+
+${9:/* 고해상도(Rtina) 이미지 대응 배경 적용 */}
+${9:/* 96dpi × 비율 : 연산하기 */}
+@media only screen and (-webkit-min-device-pixel-ratio: ${5:2}),
+	only screen and (   min--moz-device-pixel-ratio: ${5:2}),
+	only screen and (     -o-min-device-pixel-ratio: ${5:2}/1),
+	only screen and (        min-device-pixel-ratio: ${5:2}),
+	only screen and (                min-resolution: ${6:96*${5:2}}dpi),
+	only screen and (                min-resolution: ${5:2}dppx) {
+
+	.${1:retina-images} {
+		background: url(${4:../images/profile}@${5:2}x.png) no-repeat;
+	}
+
+}${0}]]></content>
+	<tabTrigger>hidpi/</tabTrigger>
+	<scope>source.css, source.scss</scope>
+</snippet>

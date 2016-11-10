@@ -21,9 +21,9 @@
 - [x]	자간 (letter-spacing)
 
 ###4. 이미지 슬라이스
-- [ ]	스마트 오브젝트
-- [ ]	벡터 이미지 (SVG)
-- [ ]	이미지 내보내기 방식
+- [x]	스마트 오브젝트
+- [x]	벡터 이미지 (SVG)
+- [x]	이미지 내보내기 방식
 
 ###5. UI Kit 제작
 - [ ]	UI 모듈화 (재사용 높은 UI)
@@ -54,9 +54,9 @@
 - [x]		- max-width
 
 	2. 이미지 최적화
-- [ ]		- @2x, @3x ~
-- [ ]		- srcset
-- [ ]		- background retina
+- [x]		- @2x, @3x ~
+- [x]		- srcset
+- [x]		- background retina
 
 	3. 시멘틱 마크업
 - [ ]		- HTML

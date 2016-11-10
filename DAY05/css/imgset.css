@@ -12,6 +12,7 @@ body {
 	width: 22rem;
 	height: 22rem;
 	background: url(../images/profile.png) no-repeat;
+	background-size: cover;
 }
 
 /* 고해상도 이미지 대응 배경 이미지 */
