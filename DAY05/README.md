@@ -17,5 +17,3 @@
 ##[참고]
 [비트맵 방식과 벡터 방식](https://spoqa.github.io/2012/06/13/bitmap-vector.html)
 [레티나 배경 이미지 대응](https://css-tricks.com/snippets/css/retina-display-media-query/)
-[Stocksnap : 고해상도 이미지](https://stocksnap.io/)
-[Pexels : 고해상도 이미지](https://www.pexels.com/)

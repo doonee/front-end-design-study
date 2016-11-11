@@ -15,12 +15,12 @@ body {
 	min-height: 100vh;
 
 	/* baseline 10px */
-	/*background: linear-gradient(transparent 90%, hsla(0, 0%, 0%, 0.2) 90%);
-	background-size: 1px 10px;*/
+	background: linear-gradient(transparent 90%, hsla(0, 0%, 0%, 0.2) 90%);
+	background-size: 1px 10px;
 
 	/* 14px *1.5 => leading 24px */
-	background: linear-gradient(transparent 98%, hsla(0, 0%, 0%, 0.2) 98%);
-	background-size: 1px 24px;
+	/*background: linear-gradient(transparent 98%, hsla(0, 0%, 0%, 0.2) 98%);
+	background-size: 1px 24px;*/
 }
 
 /**
