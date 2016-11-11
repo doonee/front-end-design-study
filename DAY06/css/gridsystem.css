@@ -41,3 +41,79 @@ body {
 	/* (1256 - 40) / 8 =  152 * 2 = 304 */
 	background-size: 304px 1px;
 }
+
+.row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+[class^="col-"] {
+	float: left;
+	width: 152px;
+	/*height: 100px;*/
+	/*line-height: 100px;*/
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: #fff;
+	background: #000;
+	margin-bottom: 10px;
+}
+
+[class^="col-"]:nth-of-type(2n) {
+	background: #f00;
+}
+
+.col-1 {
+	width: 152px;
+}
+.col-2 {
+	width: 304px;
+}
+.col-3 {
+	width: 456px;
+}
+.col-4 {
+	width: 608px;
+}
+.col-5 {
+	width: 760px;
+}
+.col-6 {
+	width: 912px;
+}
+.col-7 {
+	width: 1064px;
+}
+.col-8 {
+	width: 1216px;
+}
+[class^="push-"] {
+	position: relative;
+}
+
+.push-1 {
+	left: 152px;
+}
+.push-2 {
+	left: 304px;
+}
+.push-3 {
+	left: 456px;
+}
+.push-4 {
+	left: 608px;
+}
+.push-5 {
+	left: 760px;
+}
+.push-6 {
+	left: 912px;
+}
+.push-7 {
+	left: 1064px;
+}
+.push-8 {
+	left: 1216px;
+}
