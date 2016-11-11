@@ -91,30 +91,30 @@ body {
 }
 
 [class^="push-"] {
-	position: relative;
+	/*position: relative;*/
 }
 
 .push-1 {
-	left: 152px;
+	margin-left: 152px;
 }
 .push-2 {
-	left: 304px;
+	margin-left: 304px;
 }
 .push-3 {
-	left: 456px;
+	margin-left: 456px;
 }
 .push-4 {
-	left: 608px;
+	margin-left: 608px;
 }
 .push-5 {
-	left: 760px;
+	margin-left: 760px;
 }
 .push-6 {
-	left: 912px;
+	margin-left: 912px;
 }
 .push-7 {
-	left: 1064px;
+	margin-left: 1064px;
 }
 .push-8 {
-	left: 1216px;
+	margin-left: 1216px;
 }
