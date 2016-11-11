@@ -1,0 +1,43 @@
+/**
+* --------------------------------
+* Reset css style
+* ----------------------------- */
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/**
+* --------------------------------
+* show-grid Module
+* ----------------------------- */
+.show-grid {
+	min-height: 100vh;
+
+	/* baseline 10px */
+	background: linear-gradient(transparent 90%, hsla(0, 0%, 0%, 0.2) 90%);
+	background-size: 1px 10px;
+
+	/* 14px *1.5 => leading 24px */
+	/*background: linear-gradient(transparent 98%, hsla(0, 0%, 0%, 0.2) 98%);
+	background-size: 1px 24px;*/
+}
+
+/**
+* --------------------------------
+* grid-container Module
+* ----------------------------- */
+.grid-container {
+	/* 1256 - (20 * 2) = 1216*/
+	width: 1216px;
+	height: 100vh;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.show-grid .grid-container {
+	/* 거터가 없는 그리드 */
+	background: linear-gradient(90deg, hsla(267, 53%, 52%, 0.3) 50%, hsla(44, 78%, 55%, 0.3) 50%);
+	/* (1256 - 40) / 8 =  152 * 2 = 304 */
+	background-size: 304px 1px;
+}
