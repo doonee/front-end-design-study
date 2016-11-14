@@ -24,4 +24,4 @@
 - [Generate image assets](https://helpx.adobe.com/photoshop/using/generate-assets-layers.html)
 - [Flat UI](http://designmodo.github.io/Flat-UI/)
 - [Google Fonts](https://fonts.google.com/)
-- [타이포그라피 설계 예제]()
+- [타이포그라피 설계](https://www.gridlover.net/try)

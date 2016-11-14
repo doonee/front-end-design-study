@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<title>그리드시스템 - 레이아웃 구조화</title>
+	<!-- Reset CSS -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!-- Normalize Reset CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+	<!-- 그리스 시스템 & 베이스라인 설계 -->
+	<link rel="stylesheet" href="css/gridsystem.css">
+	<!-- 박스 모델 : 인라인 요소, 블록 요소 -->
+	<link rel="stylesheet" type="text/css" href="css/layout.css">
+</head>
+<body class="show-grid">
+
+	<!-- 그리스 시스템 -->
+	<div class="grid-container">
+
+		<div class="row">
+			<div class="img-box-1 col-2">
+				<div class="modal">
+					<h3>TITLE 01</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid incidunt minima doloribus, atque quis a est! Repellendus quasi, aspernatur quam.</p>
+				</div>
+				<div class="dim"></div>
+			</div>
+			<div class="img-box-2 col-2">
+				<div class="modal">
+					<h3>TITLE 02</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur placeat dolore culpa soluta quasi. Distinctio iste voluptatibus enim pariatur eum.</p>
+				</div>
+				<div class="dim"></div>
+			</div>
+			<div class="img-box-3 col-2">
+				<div class="modal">
+					<h3>TITLE 03</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit distinctio nesciunt alias excepturi, sint dolores itaque accusantium porro dolore?</p>
+				</div>
+				<div class="dim"></div>
+			</div>
+			<div class="img-box-4 col-2">
+				<div class="modal">
+					<h3>TITLE 04</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt ipsa velit iusto quam obcaecati illum, voluptate ullam sunt illo maxime!</p>
+				</div>
+				<div class="dim"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<!-- 그리스 시스템 토글 버튼 -->
+	<script src="js/toggleGrid.js"></script>
+</body>
+</html>

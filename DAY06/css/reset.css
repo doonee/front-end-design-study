@@ -45,3 +45,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input[type="color"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"] {
+	-webkit-appearance: none;
+}
