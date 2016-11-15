@@ -19,8 +19,6 @@
 	z-index: 100;
 }
 
-.modal {}
-
 /* 딤처리 */
 [class*="img-box-"] .dim {
 	position: absolute;
