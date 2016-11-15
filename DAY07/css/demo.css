@@ -1,9 +1,12 @@
+/* Moblie Frist : 979px 이하 브라우저 스타일 적용 */
+
 .clearfix:after {
 	content: "";
 	display: block;
 	clear: both;
 }
 .row {
+	/* 너비가 최소 320px 이상에서 브라우저 너비에 따라 조절 */
 	min-width: 320px;
 }
 .header {
@@ -100,8 +103,10 @@
 	height: auto;
 }
 
+/* Tablet, Desktap : 979px 이상 브라우저 스타일 적용 */
 @media screen and (min-width: 979px) {
 	.row {
+		/* 너비가 최대 980px 이내에서 브라우저 너비에 따라 조절 */
 		max-width: 980px;
 		margin: 0 auto;
 	}
