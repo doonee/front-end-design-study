@@ -20,3 +20,4 @@
 [그리드시스템 반응형](http://www.responsivegridsystem.com/)
 [반응형 사이트](http://mediaqueri.es/)
 [UI Kit 제작](http://codepen.io/unicorn-iy/)
+[CC 2017 업데이트 신기술](https://helpx.adobe.com/photoshop/using/whats-new.html)
