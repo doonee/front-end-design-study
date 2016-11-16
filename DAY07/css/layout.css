@@ -1,3 +1,4 @@
+/*  "img-box-" 네임이 포함한 모든 class에 적용 */
 [class*="img-box-"] {
 	position: relative;
 	height: 369px;
@@ -29,7 +30,6 @@
 	background: hsla(0, 0%, 0%, 0.4);
 }
 
-
 .img-box-1 {
 	background: url(../images/img01.png);
 }
@@ -43,6 +43,7 @@
 	background: url(../images/img04.png);
 }
 
+/* 레티나 대응 고해상도 이미지 2x */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 	only screen and (   min--moz-device-pixel-ratio: 2),
 	only screen and (     -o-min-device-pixel-ratio: 2/1),

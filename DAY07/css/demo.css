@@ -1,14 +1,25 @@
-/* Moblie Frist : 979px 이하 브라우저 스타일 적용 */
+/* 문서 언어 인코딩 설정 */
+@charset "utf-8";
 
+/**
+* ----------------------------------------------------------------
+*  Moblie Frist : 979px 이하 브라우저 스타일 적용
+* ------------------------------------------------------------- */
+
+ /* clearfix module */
 .clearfix:after {
 	content: "";
 	display: block;
 	clear: both;
 }
+
+/*  row module */
 .row {
 	/* 너비가 최소 320px 이상에서 브라우저 너비에 따라 조절 */
 	min-width: 320px;
 }
+
+/* header area */
 .header {
 	position: fixed;
 	top: 0;
@@ -19,6 +30,8 @@
 .header .row {
 	position: relative;
 }
+
+/* logo */
 .logo {
 	float: left;
 }
@@ -28,8 +41,11 @@
 	line-height: 56px;
 }
 .logo img {
+	/* px 단위설정 가능 */
 	vertical-align: -15px;
 }
+
+/* menu mobile button */
 .btn-toggle {
 	display: block;
 	float: right;
@@ -44,6 +60,8 @@
 	background-color: #444;
 	border-radius: 4px 4px 0 0;
 }
+
+/* menu area */
 .menu {
 	float: right;
 	position: absolute;
@@ -62,17 +80,18 @@
 }
 .menu li {
 	display: block;
-	line-height: 40px;
 	vertical-align: middle;
 }
 .menu li a {
 	display: block;
 	width: 100%;
+	line-height: 40px;
 	color: #4c9cf1;
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
 	padding: 0 20px;
+	border-radius: 0;
 	box-sizing: border-box;
 }
 .menu li a:hover, .menu li a:focus {
@@ -83,6 +102,8 @@
 	color: #fff;
 	background: #444;
 }
+
+/* container area */
 .container {
 	margin-top: 110px;
 	padding: 0 30px;
@@ -98,12 +119,17 @@
 	line-height: 1.5;
 	margin-bottom: 20px;
 }
+
+/* main image */
 .featured {
 	width: 100%;
 	height: auto;
 }
 
-/* Tablet, Desktap : 979px 이상 브라우저 스타일 적용 */
+/**
+* ----------------------------------------------------------------
+*  Tablet, Desktap : 979px 이상 브라우저 스타일 적용
+* ------------------------------------------------------------- */
 @media screen and (min-width: 979px) {
 	.row {
 		/* 너비가 최대 980px 이내에서 브라우저 너비에 따라 조절 */
@@ -116,8 +142,6 @@
 	.menu li {
 		float: left;
 		display:  inline-block;
-		line-height: 56px;
-		padding: 10px 0;
 	}
 	.container {
 		margin-top: 110px;
@@ -125,7 +149,7 @@
 	}
 	.menu {
 		position: relative;
-		top: 0;
+		top: 16px;
 		right: 0;
 	}
 	.menu ul {
@@ -134,11 +158,14 @@
 		border: 0;
 	}
 	.menu li a {
-		border: 1px solid #fff;
+		position: relative;
+		background: #fff;
+		border-radius: 20px;
+		z-index: 0;
 	}
 	.menu li a:hover, .menu li a:focus {
-		background: #fff;
-		border: 1px solid #444;
+		color: #2262ad;
+		background: #e0eefd;
 	}
 	.menu li a.active, .menu li a:active {
 		color: #2262ad;

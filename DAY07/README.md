@@ -14,14 +14,11 @@
 		- <dt> definition term 용어 정의
 		- <dd> definition descriotion 용어 설명
 
-##2. 그리드시스템 모듈 제작
-	- push module
-	- pull module
-	- prefix module
-	- suffix module
+##3. 목록 활용 네비게이션 제작
+	- position
+	- float
+	- ul, li
+	- clearfix
 
 ##[참고]
-[그리드시스템 계산](http://gridcalculator.dk/)
-[그리드시스템 미리보기](http://material.io/resizer/)
-[그리드시스템 반응형](http://www.responsivegridsystem.com/)
-[반응형 사이트](http://mediaqueri.es/)
+[목록 정의](https://developer.mozilla.org/ko/docs/Web/HTML/Element/ul)

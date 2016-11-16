@@ -27,7 +27,7 @@
 
 ###5. UI Kit 제작
 - [x]	UI 모듈화 (재사용 높은 UI)
-- [ ]	유지보수를 위한 UI Kit
+- [x]	유지보수를 위한 UI Kit
 
 ###6. 레이아웃 구조화
 	1. 박스모델 (Box Model)
@@ -43,13 +43,13 @@
 - [x]		- clearfix
 
 	3. 목록
-- [ ]		- ol, li
-- [ ]		- ul, li
-- [ ]		- dt, dd
+- [x]		- ol, li
+- [x]		- ul, li
+- [x]		- dt, dd
 
 ###7. 반응형 웹 페이지
 	1. 디바이스 중단점 설계
-- [ ]		- @media
+- [x]		- @media
 - [x]		- min-width
 - [x]		- max-width
 
@@ -59,6 +59,6 @@
 - [x]		- background retina
 
 	3. 시멘틱 마크업
-- [ ]		- HTML
-- [ ]		- CSS
-- [x]	- Github.io
+- [x]		- HTML
+- [x]		- CSS
+- [x]		- Github.io
