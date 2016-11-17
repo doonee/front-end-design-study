@@ -15,6 +15,6 @@
 	- background retina
 
 ##[참고]
-[비트맵 방식과 벡터 방식](https://spoqa.github.io/2012/06/13/bitmap-vector.html)
-[레티나 배경 이미지 대응](https://css-tricks.com/snippets/css/retina-display-media-query/)
-[이미지 정렬 : vertical-align](http://www.brunildo.org/test/va_lineheight.html)
+- [비트맵 방식과 벡터 방식](https://spoqa.github.io/2012/06/13/bitmap-vector.html)
+- [레티나 배경 이미지 대응](https://css-tricks.com/snippets/css/retina-display-media-query/)
+- [이미지 정렬 : vertical-align](http://www.brunildo.org/test/va_lineheight.html)

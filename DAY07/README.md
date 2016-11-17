@@ -21,4 +21,4 @@
 	- clearfix
 
 ##[참고]
-[목록 정의](https://developer.mozilla.org/ko/docs/Web/HTML/Element/ul)
+- [목록 정의](https://developer.mozilla.org/ko/docs/Web/HTML/Element/ul)

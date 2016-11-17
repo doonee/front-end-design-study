@@ -6,6 +6,10 @@
 *  Moblie Frist : 979px 이하 브라우저 스타일 적용
 * ------------------------------------------------------------- */
 
+html {
+	overflow-y: scroll;
+}
+
  /* clearfix module */
 .clearfix:after {
 	content: "";

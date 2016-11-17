@@ -21,5 +21,5 @@
 
 
 ##[참고]
-[엘리먼트 지원범위](http://caniuse.com/)
-[float 해제 방법](http://naradesign.net/wp/2008/05/27/144/)
+- [엘리먼트 지원범위](http://caniuse.com/)
+- [float 해제 방법](http://naradesign.net/wp/2008/05/27/144/)
