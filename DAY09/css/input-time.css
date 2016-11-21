@@ -34,7 +34,7 @@ input[type="time"]::-webkit-datetime-edit-ampm-field {
 /* 기본 버튼 스타일 제거 */
 input[type="time"]::-webkit-clear-button,
 input[type="time"]::-webkit-inner-spin-button{
-	 -webkit-appearance: none;
+	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
 	margin: 0;
