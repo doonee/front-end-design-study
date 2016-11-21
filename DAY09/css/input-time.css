@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body {
+	height: 100vh;
+	background:  url("../img/stock-photo-153029345.jpg") no-repeat;
+	background-size: cover;
+	margin: 0;
+}
+
+input[type="time"], .time {
+	display: block;
+	width: 100%;
+	line-height: 100vh;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 10em;
+	color: #fff;
+	text-align: center;
+	/*선택자 { text-shadow: 색상 가로길이 세로길이 번짐; }*/
+	text-shadow:#000 1px 1px 10px;
+}
+
+input[type="time"] {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background: transparent;
+}
+
+/* 오전, 오후 표시 제거 */
+input[type="time"]::-webkit-datetime-edit-ampm-field {
+	display: none;
+}
+
+/* 기본 버튼 스타일 제거 */
+input[type="time"]::-webkit-clear-button,
+input[type="time"]::-webkit-inner-spin-button{
+	 -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0;
+}
