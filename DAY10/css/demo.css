@@ -1,0 +1,43 @@
+/* DEMO Style */
+.box {
+	text-align: center;
+	background: #f4c6ab;
+	color: #666;
+	border: 1px solid #fff;
+}
+
+.box:nth-of-type(even) {
+	background: #c1e8b9;
+}
+
+.top-setting {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	line-height: 50px;
+	background: #f4c6ab;
+}
+
+footer .box {
+	height: 50px;
+	line-height: 50px;
+}
+
+.carousel .box {
+	padding-top: 50px;
+	height: 400px;
+	line-height: 350px;
+	background: #c1e8b9;
+}
+
+.img-box .box,
+.info-box .box {
+	line-height: 200px;
+}
+
+.text-box .box,
+.item-box {
+	line-height: 150px;
+}
