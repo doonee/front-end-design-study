@@ -1,6 +1,6 @@
 ## 1. Github (GUI 버전관리)
-    1. commit 추가,변경 이슈 가상서버(local) 저장
-    2. sync 실서버 반영
+    - commit 추가,변경 이슈 가상서버(local) 저장
+    - sync 실서버 반영
 
 ## 2. Git Page 제작
     - new repository 생성
@@ -20,3 +20,4 @@
 - [github 가입 후 설치 (https://desktop.github.com/)](https://desktop.github.com/)<br>
 - [Sublime Text 3 설치 (https://www.sublimetext.com/3)](https://www.sublimetext.com/3)<br>
 - [Sublime Text 3 강의 (https://www.inflearn.com/course/sublime-text-3)](https://www.inflearn.com/course/sublime-text-3-%EB%A7%88%EC%8A%A4%ED%84%B0%EB%A7%81-%EC%BD%94%EC%8A%A4/)
+- [[Sublime Text 3 유용한 패키지 (https://jeonghakhur.gitbooks.io/sublime-text3/content/)](https://jeonghakhur.gitbooks.io/sublime-text3/content/)
