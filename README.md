@@ -6,7 +6,7 @@
 - [ ] GitHub.io 페이지 생성
 - [ ] GitHub 프로젝트 버전 관리
 
-###3. 타이포그라피 설계
+###2. 타이포그라피 설계
 - [ ] 단위 (px, rem)
 - [ ] 비율 (font, line-height)
 - [ ] 자간 (letter-spacing)
