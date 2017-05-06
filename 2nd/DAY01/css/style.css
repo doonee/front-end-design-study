@@ -1,0 +1,66 @@
+html {
+	/* 브라우저 기본 font-size: 16px; */
+	font-size: 10px;
+}
+
+body {
+	font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	/* 속기형 */
+	/* margin: 상 우 하 좌; */
+	margin-top: 0;
+	margin-right: 0;
+	/* margin: 0; */
+	margin-left: 0;
+	/* 행간 = 폰트 사이즈(16px) * 행간비율(1.5) */
+	margin-bottom: 24px;
+}
+
+h1 {
+	/* 본문 폰트사이즈 × 비율(1.25) */
+	/* font-size: 16*1.25*1.25*1.25*1.25*1.25*1.25; */
+	/* px 단위 */
+	/* font-size: 61.04px; */
+	/* Rem 단위 */
+	font-size: 6.104rem;
+	/* line-height: 16*4.5; */
+	line-height: 72px;
+}
+h2 {
+	/* font-size: 16*1.25*1.25*1.25*1.25*1.25; */
+	/* font-size: 48.83px; */
+	font-size: 4.883rem;
+	/* line-height: 16*3; */
+	line-height: 48px;
+}
+h3 {
+	/* font-size: 16*1.25*1.25*1.25*1.25; */
+	/* font-size: 39.06px; */
+	font-size: 3.906rem;
+	/* line-height: 16*3; */
+	line-height: 48px;
+}
+h4 {
+	/* font-size: 16*1.25*1.25*1.25; */
+	/* font-size: 31.25px; */
+	font-size: 3.125rem;
+	/* line-height: 16*3; */
+	line-height: 48px;
+}
+h5 {
+	/* font-size: 16*1.25*1.25; */
+	/* font-size: 25px; */
+	font-size: 2.5rem;
+	/* line-height: 16*3; */
+	line-height: 48px;
+}
+
+h6 {
+	/* font-size: 16*1.25; */
+	/* font-size: 20px; */
+	font-size: 2rem;
+	/* line-height: 16*1.5; */
+	line-height: 24px;
+}
