@@ -1,4 +1,4 @@
-## 프론트엔드 디자인 & 웹 퍼블리싱
+## 프론트엔드 디자인
 
 ![Web Design Workflow](http://www.fantasky.ch/img/uploads/2014/09/6_web_technology_trends_2013.jpg)
 
